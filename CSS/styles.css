@@ -1,0 +1,21 @@
+:root {
+  --gray-one: #333333;
+  --gray-two: #4f4f4f;
+  --gray-three: #828282;
+  --orange-bg: #f2994a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
