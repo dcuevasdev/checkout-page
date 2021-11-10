@@ -110,3 +110,63 @@ html {
 .products__total {
   margin-bottom: 0;
 }
+
+/*===============
+  Section Contact
+=================*/
+.contact {
+  max-width: 46.5rem;
+  margin: 4rem auto;
+}
+.contact__title {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--gray-one);
+}
+.contact__title-modifier {
+  margin-top: 4rem;
+}
+.form__label,
+.form__input {
+  display: block;
+}
+.form__label {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--gray-two);
+}
+.form__input {
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 1.6rem;
+  border-radius: 1.2rem;
+  outline: none;
+  border: 1px solid var(--gray-three);
+}
+.form__container-divide {
+  display: flex;
+  justify-content: space-between;
+}
+.form__content {
+  max-width: 21.6rem;
+}
+.label__check {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+.form__submit {
+  display: block;
+  width: 16.6rem;
+  height: 5.6rem;
+  margin: 0 0 0 auto;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 1.2rem;
+  color: white;
+  background-color: var(--orange-bg);
+  cursor: pointer;
+  outline: none;
+}
