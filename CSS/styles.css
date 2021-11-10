@@ -34,6 +34,7 @@ html {
 
 .products {
   max-width: 38.4rem;
+  margin: 0 auto;
   padding: 3.2rem 0;
   border-radius: 1.2rem;
   background-color: var(--gray-four);

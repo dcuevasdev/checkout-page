@@ -111,6 +111,91 @@
             <p>$148.98</p>
           </div>
         </section>
+        <section class="contact">
+          <h2 class="contact__title">Contact infomation</h2>
+          <form action="#" class="form">
+            <label for="email" class="form__label">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form__email form__input"
+              placeholder="Enter your email..."
+            />
+            <label for="phone" class="form__label">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              class="form__phone form__input"
+              placeholder="Enter your phone..."
+            />
+            <h2 class="contact__title">Shipping address</h2>
+            <label for="name" class="form__label">Full name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form__name form__input"
+              placeholder="Enter your full name..."
+            />
+            <label for="address" class="form__label">Address</label>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              class="form__address form__input"
+              placeholder="Your address..."
+            />
+            <label for="city" class="form__label">City</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              class="form__city form__input"
+              placeholder="Your city..."
+            />
+            <div class="form__container-divide">
+              <div class="form__content">
+                <label for="country" class="form__label">Country</label>
+                <input
+                  type="text"
+                  name="country"
+                  id="country"
+                  list="datalist"
+                  class="form__country form__input"
+                  placeholder="Your country..."
+                />
+                <datalist name="datalist" id="datalist" class="form__datalist">
+                  <option value="Colombia">Colombia</option>
+                  <option value="USA">USA</option>
+                  <option value="Thailand">Thailand</option>
+                  <option value="Switzerland">Switzerland</option>
+                </datalist>
+              </div>
+              <div class="form__content">
+                <label for="postal" class="form__label">Postal code</label>
+                <input
+                  type="number"
+                  name="postal"
+                  id="postal"
+                  class="form__postal form__input"
+                  placeholder="Your postal code..."
+                />
+              </div>
+            </div>
+            <input
+              type="checkbox"
+              name="check"
+              id="check"
+              class="form__check"
+            />
+            <label for="check" class="label__check"
+              >Save this information for next time</label
+            >
+            <input type="submit" value="Continue" class="form__submit" />
+          </form>
+        </section>
       </section>
     </main>
   </body>
