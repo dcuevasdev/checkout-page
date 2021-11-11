@@ -225,3 +225,24 @@ html {
   background-color: white;
   transition: all 300ms;
 }
+
+/*======
+  Footer
+========*/
+.footer {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--gray-three);
+}
+.footer a {
+  text-decoration: none;
+  color: var(--gray-three);
+  cursor: pointer;
+  transition: all 300ms;
+}
+.footer a:hover {
+  font-size: 1.6rem;
+  color: var(--orange-bg);
+}
