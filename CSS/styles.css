@@ -152,6 +152,12 @@ html {
 .form__content {
   max-width: 21.6rem;
 }
+.form__content--left {
+  padding-right: 0.8rem;
+}
+.form__content--right {
+  padding-left: 0.8rem;
+}
 .label__check {
   display: inline-block;
   margin-left: 0.8rem;
