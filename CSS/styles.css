@@ -211,3 +211,17 @@ html {
   background-size: 2rem;
   background-repeat: no-repeat;
 }
+
+/*========================
+  Animation and transition
+==========================*/
+.form__input:focus {
+  border: 0.1rem solid var(--orange-bg);
+  transition: all 300ms;
+}
+.form__submit:hover {
+  border: 1px solid var(--orange-bg);
+  color: var(--orange-bg);
+  background-color: white;
+  transition: all 300ms;
+}
