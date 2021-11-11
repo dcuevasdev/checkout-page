@@ -246,3 +246,30 @@ html {
   font-size: 1.6rem;
   color: var(--orange-bg);
 }
+
+/*=============
+  Media queries
+===============*/
+@media (min-width: 920px) {
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /*================
+    Section Products
+====================*/
+  .products {
+    order: 2;
+    width: 100%;
+    margin: 0;
+    height: 48rem;
+  }
+  /*===============
+    Section contact
+===================*/
+  .contact {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+}
