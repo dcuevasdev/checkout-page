@@ -170,3 +170,38 @@ html {
   cursor: pointer;
   outline: none;
 }
+
+/*============================
+  Section Contact Placeholders
+==============================*/
+
+.form__email::placeholder {
+  background: url(../assets/icons/email.svg);
+}
+.form__phone::placeholder {
+  background: url(../assets/icons/phone.svg);
+}
+.form__name::placeholder {
+  background: url(../assets/icons/account-circle.svg);
+}
+.form__address::placeholder {
+  background: url(../assets/icons/home.svg);
+}
+.form__city::placeholder,
+.form__country::placeholder {
+  background: url(../assets/icons/city.svg);
+}
+.form__postal::placeholder {
+  background: url(../assets/icons/mailbox-open-up.svg);
+}
+.form__input {
+  padding-left: 0.8rem;
+}
+.form__input::placeholder {
+  padding: 0.4rem 2.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--gray-three);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+}
