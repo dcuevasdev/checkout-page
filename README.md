@@ -1,4 +1,4 @@
-<h1 align="center">🖼️ My gallery</h1>
+<h1 align="center">🎱 Checkout-page</h1>
 
 <div align="center">
     Solución para un desafío de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
